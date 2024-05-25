@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Delete Created Repository Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository">
+        <methods>
+          <include name="CraeteTheRepository"/>
+          <include name="Postdata"/>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository -->
+      <class name="gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository">
+        <methods>
+          <include name="DeleteTheCraetedRepository"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Delete Created Repository Suite] -->

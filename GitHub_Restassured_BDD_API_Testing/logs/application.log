@@ -1,0 +1,123 @@
+2024-05-25 16:18:01,247 [main] INFO GitHubRestAPI - ************** Started TC001 Create GitHub Repository **************
+2024-05-25 16:18:01,875 [main] INFO GitHubRestAPI - ************** Executing The Crate Repository API Request **************
+2024-05-25 16:18:08,100 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:18:08,100 [main] INFO GitHubRestAPI - The Status Code Is ==> 201
+2024-05-25 16:18:08,100 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:18:08,100 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 201 Created
+2024-05-25 16:18:08,128 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:18:08,128 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:18:08,128 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:18:08,128 [main] INFO GitHubRestAPI - The Repository Name is ==> Test946
+2024-05-25 16:18:08,133 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:18:08,134 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For Testingbsk
+2024-05-25 16:18:08,135 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:18:08,135 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:18:08,199 [main] INFO GitHubRestAPI - ************** Finished TC001 Create GitHub Repository **************
+2024-05-25 16:18:08,234 [main] INFO GitHubRestAPI - ************** Started TC002 Get The Created GitHub Repository **************
+2024-05-25 16:18:08,234 [main] INFO GitHubRestAPI - ************** Successfully Created GitHub Repository **************
+2024-05-25 16:18:08,239 [main] INFO GitHubRestAPI - ************** Executing The Get Repository API Request **************
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - The Status Code Is ==> 200
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 200 OK
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - The Repository Name is ==> Test946
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For Testingbsk
+2024-05-25 16:18:09,018 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:18:09,034 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:18:09,034 [main] INFO GitHubRestAPI - ************** Finished TC002 Getting GitHub Repository **************
+2024-05-25 16:18:09,034 [main] INFO GitHubRestAPI - ************** Started TC003 Update The Created GitHub Repository **************
+2024-05-25 16:18:09,034 [main] INFO GitHubRestAPI - ************** Successfully Created GitHub Repository **************
+2024-05-25 16:18:09,097 [main] INFO GitHubRestAPI - ************** Executing The Update Repository API Request **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - The Status Code Is ==> 200
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 200 OK
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - The Repository Name is ==> Test248
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For TestingflM
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:18:10,481 [main] INFO GitHubRestAPI - ************** Finished TC003 Updated GitHub Repository **************
+2024-05-25 16:18:10,498 [main] INFO GitHubRestAPI - ************** Started TC004 Delete The Created GitHub Repository **************
+2024-05-25 16:18:10,498 [main] INFO GitHubRestAPI - ************** Successfully Created GitHub Repository **************
+2024-05-25 16:18:10,498 [main] INFO GitHubRestAPI - ************** Executing The Get Repository API Request **************
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - The Status Code Is ==> 204
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 204 No Content
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:18:11,172 [main] INFO GitHubRestAPI - ************** Finished TC004 Deleted GitHub Repository **************
+2024-05-25 16:21:01,988 [main] INFO GitHubRestAPI - ************** Started TC001 Create GitHub Repository **************
+2024-05-25 16:21:02,638 [main] INFO GitHubRestAPI - ************** Executing The Crate Repository API Request **************
+2024-05-25 16:21:08,525 [main] INFO GitHubRestAPI - ************** Finished TC001 Create GitHub Repository **************
+2024-05-25 16:21:08,543 [main] INFO GitHubRestAPI - ************** Finished TC004 Deleted GitHub Repository **************
+2024-05-25 16:21:45,332 [main] INFO GitHubRestAPI - ************** Started TC001 Create GitHub Repository **************
+2024-05-25 16:21:45,909 [main] INFO GitHubRestAPI - ************** Executing The Crate Repository API Request **************
+2024-05-25 16:21:51,335 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:21:51,336 [main] INFO GitHubRestAPI - The Status Code Is ==> 201
+2024-05-25 16:21:51,336 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:21:51,337 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 201 Created
+2024-05-25 16:21:51,337 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:21:51,338 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:21:51,338 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:21:51,339 [main] INFO GitHubRestAPI - The Repository Name is ==> Test826
+2024-05-25 16:21:51,339 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:21:51,340 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For TestingBNK
+2024-05-25 16:21:51,340 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:21:51,340 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:21:51,351 [main] INFO GitHubRestAPI - ************** Finished TC001 Create GitHub Repository **************
+2024-05-25 16:21:51,367 [main] INFO GitHubRestAPI - ************** Started TC003 Update The Created GitHub Repository **************
+2024-05-25 16:21:51,368 [main] INFO GitHubRestAPI - ************** Successfully Created GitHub Repository **************
+2024-05-25 16:21:51,411 [main] INFO GitHubRestAPI - ************** Executing The Update Repository API Request **************
+2024-05-25 16:21:52,714 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:21:52,714 [main] INFO GitHubRestAPI - The Status Code Is ==> 200
+2024-05-25 16:21:52,714 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 200 OK
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - The Repository Name is ==> Test134
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For TestingCWB
+2024-05-25 16:21:52,715 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:21:52,716 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:21:52,717 [main] INFO GitHubRestAPI - ************** Finished TC003 Updated GitHub Repository **************
+2024-05-25 16:22:05,012 [main] INFO GitHubRestAPI - ************** Started TC001 Create GitHub Repository **************
+2024-05-25 16:22:05,764 [main] INFO GitHubRestAPI - ************** Executing The Crate Repository API Request **************
+2024-05-25 16:22:11,437 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:22:11,437 [main] INFO GitHubRestAPI - The Status Code Is ==> 201
+2024-05-25 16:22:11,437 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:22:11,437 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 201 Created
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - The Repository Name is ==> Test798
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For TestingMKY
+2024-05-25 16:22:11,445 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:22:11,448 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:22:11,462 [main] INFO GitHubRestAPI - ************** Finished TC001 Create GitHub Repository **************
+2024-05-25 16:22:11,478 [main] INFO GitHubRestAPI - ************** Started TC002 Get The Created GitHub Repository **************
+2024-05-25 16:22:11,478 [main] INFO GitHubRestAPI - ************** Successfully Created GitHub Repository **************
+2024-05-25 16:22:11,482 [main] INFO GitHubRestAPI - ************** Executing The Get Repository API Request **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Checking Status Code **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - The Status Code Is ==> 200
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Checking Status Line **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - The Status Line Is ==> HTTP/1.1 200 OK
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Checking Respons Time **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - The Time Taken To Create Repository Is ==> 4000Milliseconds
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Checking Repository Name **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - The Repository Name is ==> Test798
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Checking Repository Description **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - The Repository Description is ==> This Is For TestingMKY
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Checking Repository Is In Privat **************
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - The Repository Is In Private ==> true
+2024-05-25 16:22:12,196 [main] INFO GitHubRestAPI - ************** Finished TC002 Getting GitHub Repository **************

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T16:18:00 IST" name="Regression Git-Hub Repository Suite" finished-at="2024-05-25T16:18:11 IST" duration-ms="10229">
+    <groups>
+    </groups>
+    <test started-at="2024-05-25T16:18:00 IST" name="Created Repository" finished-at="2024-05-25T16:18:11 IST" duration-ms="10229">
+      <class name="gitHubRepositoryAPITestCase.TC002_Get_The_Created_Repository">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:gitHubRepositoryAPITestCase.TC002_Get_The_Created_Repository@35aea049]" started-at="2024-05-25T16:18:08 IST" name="setUp" finished-at="2024-05-25T16:18:08 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GetTheCraetedRepository()[pri:0, instance:gitHubRepositoryAPITestCase.TC002_Get_The_Created_Repository@35aea049]" started-at="2024-05-25T16:18:08 IST" name="GetTheCraetedRepository" finished-at="2024-05-25T16:18:09 IST" depends-on-methods="gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository.CraeteTheRepository" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTheCraetedRepository -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:gitHubRepositoryAPITestCase.TC002_Get_The_Created_Repository@35aea049]" started-at="2024-05-25T16:18:09 IST" name="TearDown" finished-at="2024-05-25T16:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- gitHubRepositoryAPITestCase.TC002_Get_The_Created_Repository -->
+      <class name="gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository@47987356]" started-at="2024-05-25T16:18:10 IST" name="setUp" finished-at="2024-05-25T16:18:10 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeleteTheCraetedRepository()[pri:0, instance:gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository@47987356]" started-at="2024-05-25T16:18:10 IST" name="DeleteTheCraetedRepository" finished-at="2024-05-25T16:18:11 IST" depends-on-methods="gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository.CraeteTheRepository" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTheCraetedRepository -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository@47987356]" started-at="2024-05-25T16:18:11 IST" name="TearDown" finished-at="2024-05-25T16:18:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- gitHubRepositoryAPITestCase.TC004_Delete_The_Created_Repository -->
+      <class name="gitHubRepositoryAPITestCase.TC003_Update_The_Created_Repository">
+        <test-method is-config="true" signature="Updatedata()[pri:0, instance:gitHubRepositoryAPITestCase.TC003_Update_The_Created_Repository@7205765b]" started-at="2024-05-25T16:18:09 IST" name="Updatedata" finished-at="2024-05-25T16:18:09 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Updatedata -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:gitHubRepositoryAPITestCase.TC003_Update_The_Created_Repository@7205765b]" started-at="2024-05-25T16:18:09 IST" name="setUp" finished-at="2024-05-25T16:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="UpdateTheCraetedRepository()[pri:0, instance:gitHubRepositoryAPITestCase.TC003_Update_The_Created_Repository@7205765b]" started-at="2024-05-25T16:18:09 IST" name="UpdateTheCraetedRepository" finished-at="2024-05-25T16:18:10 IST" depends-on-methods="gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository.CraeteTheRepository" duration-ms="1428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateTheCraetedRepository -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:gitHubRepositoryAPITestCase.TC003_Update_The_Created_Repository@7205765b]" started-at="2024-05-25T16:18:10 IST" name="TearDown" finished-at="2024-05-25T16:18:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- gitHubRepositoryAPITestCase.TC003_Update_The_Created_Repository -->
+      <class name="gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository@f736069]" started-at="2024-05-25T16:18:01 IST" name="setUp" finished-at="2024-05-25T16:18:01 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Postdata()[pri:0, instance:gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository@f736069]" started-at="2024-05-25T16:18:01 IST" name="Postdata" finished-at="2024-05-25T16:18:01 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Postdata -->
+        <test-method signature="CraeteTheRepository()[pri:0, instance:gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository@f736069]" started-at="2024-05-25T16:18:01 IST" name="CraeteTheRepository" finished-at="2024-05-25T16:18:08 IST" duration-ms="6289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CraeteTheRepository -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository@f736069]" started-at="2024-05-25T16:18:08 IST" name="TearDown" finished-at="2024-05-25T16:18:08 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- gitHubRepositoryAPITestCase.TC001_Create_GitHub_Repository -->
+    </test> <!-- Created Repository -->
+  </suite> <!-- Regression Git-Hub Repository Suite -->
+</testng-results>
